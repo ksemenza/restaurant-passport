@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    max-width: 100%;
+    background-color: @light-teal;
+    .hTopBorderRadius();
+    border-bottom: 1px groove @primary-orange;
+
+    .logoCompanyNameWrap {
+        margin-left: @mHeaderLogo;
+        display: flex;
+        align-items: center;
+.companyName {
+   .hCoNameStyle();
+}//end companyName
+
+    }//end logoCompanyName
+.headerLinkWrap {
+margin-right:@mWindowBorder;
+    }//end headerLinks
+    #myPassport {
+        margin-right: @mHeaderPassLinkLeft;
+    }
+}//end header
+//header nav anchor style
+.navAnchor {
+  .navLinkStyle();
+}

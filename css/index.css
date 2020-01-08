@@ -1,0 +1,441 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-size: 62.5%;
+  font-family: 'Solway', serif;
+  font-family: 'Patua One', cursive;
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Stoke', serif;
+  font-family: 'Bree Serif', serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Solway', serif;
+  font-family: 'Patua One', cursive;
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Stoke', serif;
+  font-family: 'Bree Serif', serif;
+}
+/* UPDATED H1 FOR SPACE WALKERS*/
+h1 {
+  font-size: 4.5rem;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.5rem;
+  padding-top: 1.6rem;
+  font-weight: 400;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  padding: 1.2rem;
+  font-style: italic;
+  font-family: 'Stoke', serif;
+  font-weight: 550;
+}
+body {
+  background-color: #f8f8f8;
+  margin: 7px;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fafafa;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 5px;
+  border: 1px groove #eeeeee;
+}
+.border {
+  border: 1px solid red;
+}
+/*HEADER FONT COLORS*/
+/*HERO FONTS COLORS*/
+/*HEADER MARGINS*/
+/*HERO MARGINS*/
+/*TOP SECTION MARGINS*/
+.bgImgCover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+}
+.hTopBorderRadius {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.txtEngraveFx {
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), 0px -1px 0px rgba(0, 0, 0, 0.7);
+}
+/*HEADER MIXINS*/
+.hCoNameStyle {
+  font-family: 'Stoke', serif;
+  color: #008e68;
+  font-size: 3.8rem;
+  font-weight: 900;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), 0px -1px 0px rgba(0, 0, 0, 0.7);
+}
+.navLinkStyle {
+  text-decoration: none;
+  color: #be6b00;
+  font-family: 'Stoke', serif;
+  font-size: 1.8rem;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), 0px -1px 0px rgba(0, 0, 0, 0.7);
+}
+/*HERO MIXINS*/
+.hHeroTxtStyle {
+  font-family: 'Stoke', serif;
+  color: #f79905;
+  font-weight: 400;
+}
+.heroTitle {
+  font-family: 'Bree Serif', serif;
+  color: #211a1a;
+}
+/*TOP SECTION MIXINS*/
+.imgWrapPosRow3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  max-width: 1000px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: none;
+}
+.imgResize {
+  height: 15%;
+  width: 25%;
+}
+.topTxtWrapStyle {
+  display: flex;
+  margin-left: 6.5%;
+  margin-right: 6.5%;
+}
+.txtTopStyle {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 100%;
+  height: 75%;
+  background-color: #44bf9c;
+  font-size: 2.1rem;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  border: 2px groove #f79905;
+  border-top: 1px inset #44bf9c;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.pTxtRow3 {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.heroImgWrap {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to left, transparent 2%, white), linear-gradient(to right, transparent 32%, white), url(/src/img/hero-home.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  width: 100%;
+  height: 400px;
+  padding: 3.6rem;
+}
+.heroImgWrap .heroHeader {
+  font-family: 'Stoke', serif;
+  color: #f79905;
+  font-weight: 400;
+}
+.heroImgWrap .heroHeader .heroTitle {
+  /**FILL IN**/
+}
+.heroImgWrap .heroHeader .heroTitle .heroTxt {
+  /**FILL IN**/
+}
+/*TOP SECTION*/
+.topSec {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.topSec .topHeader {
+  background: linear-gradient(to top, transparent 62%, white), linear-gradient(to right, transparent 32%, white);
+  background-color: #ffca49;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), 0px -1px 0px rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+  font-family: 'Stoke', serif;
+  color: #008e68;
+  padding-left: 32px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.topSec .topImgWrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  max-width: 1000px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: none;
+}
+.topSec .topTxtWrap {
+  display: flex;
+  margin-left: 6.5%;
+  margin-right: 6.5%;
+  padding-left: 1px;
+  padding-right: px;
+}
+.txtRow3 {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 100%;
+  height: 75%;
+  background-color: #44bf9c;
+  font-size: 2.1rem;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  border: 2px groove #f79905;
+  border-top: 1px inset #44bf9c;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.imgRow3 {
+  height: 15%;
+  width: 25%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px groove #f79905;
+  border-bottom: none;
+}
+/*TOP IMG ADJ*/
+#topImg1 {
+  margin-right: 6%;
+}
+#topImg3 {
+  margin-left: 6%;
+}
+/*TOP TEXT ADJ*/
+#topTxt1 {
+  margin-right: 4%;
+  width: 80%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+#topTxt2 {
+  width: 81%;
+  margin-left: 3%;
+  margin-right: 7%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+#topTxt3 {
+  width: 81%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+/**MID SECTION**/
+.midWrap {
+  background: linear-gradient(to right, transparent 5%, white), url(/src/img/mid-bg-home.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  height: 185px;
+  margin-top: 5.2rem;
+}
+.midWrap .midTxt {
+  float: right;
+  margin-top: 8%;
+  margin-right: 10%;
+  font-size: 1.8rem;
+  color: #211a1a;
+  width: 50%;
+  font-weight: 400;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  max-width: 100%;
+  background-color: #7bf2cd;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 1px groove #f79905;
+}
+header .logoCompanyNameWrap {
+  margin-left: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+header .logoCompanyNameWrap .companyName {
+  font-family: 'Stoke', serif;
+  color: #008e68;
+  font-size: 3.8rem;
+  font-weight: 900;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), 0px -1px 0px rgba(0, 0, 0, 0.7);
+}
+header .headerLinkWrap {
+  margin-right: 3.6rem;
+}
+header #myPassport {
+  margin-right: 3.5rem;
+}
+.navAnchor {
+  text-decoration: none;
+  color: #be6b00;
+  font-family: 'Stoke', serif;
+  font-size: 1.8rem;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), 0px -1px 0px rgba(0, 0, 0, 0.7);
+}
